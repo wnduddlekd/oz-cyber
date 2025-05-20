@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import logoBlack from "../assets/icons/logo-black.svg";
 import searchIcon from "../assets/icons/search-icon.svg";
@@ -15,10 +15,10 @@ export default function Header() {
         <input className="search" type="text" placeholder="Search" />
       </div>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/blog">Blog</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/blog">Blog</Link>
       </nav>
       <div className="icons">
         <img src={favoritesIcon} alt="찜목록" />
