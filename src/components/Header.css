@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  width: 1440px;
+  padding: 16px 160px;
+  gap: 32px;
+}
+header img {
+  max-height: 100%;
+  width: auto;
+}
+
+/* input-box */
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 433px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.input-box img {
+  width: 16px;
+  height: 16px;
+}
+input {
+  border: none;
+  background-color: #f5f5f5;
+}
+input:focus {
+  outline: none;
+}
+
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: 351px;
+  height: 19px;
+}
+nav a {
+  color: #65656582;
+  text-decoration: none;
+}
+
+/* icons */
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 144px;
+  height: 32px;
+}

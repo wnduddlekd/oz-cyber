@@ -1,11 +1,8 @@
 import React from "react";
+import Header from "./components/Header.jsx";
 
 function App() {
-  return (
-    <div>
-      <h1>Hello React!</h1>
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;
