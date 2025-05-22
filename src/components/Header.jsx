@@ -20,7 +20,7 @@ export default function Header() {
         <Link to="/contact">Contact Us</Link>
         <Link to="/blog">Blog</Link>
       </nav>
-      <div className="icons">
+      <div className="user-icons">
         <img src={favoritesIcon} alt="찜목록" />
         <img src={cartIcon} alt="장바구니" />
         <img src={userIcon} alt="사용자" />
